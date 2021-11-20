@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <header id='header'style="background-image: url(./tin_tuc_pnj/news_top_mobile.jpg); background-repeat: no-repeat;background-size: 100%; height: 20vw;">
+        <nav id="nav">
+            <div ><a id="logo_link" href="#" >
+                <img src="./index_pnj/icon_logo.png" alt="" >
+                <div id="slogan"><h1 style="font-size: 1.25em; color:rgb(253, 208, 6);">Pubg Mobile VN</h1>
+        
+                    <span>Chính thức tại Việt Nam</span></div>
+            </a></div>
+            <ol id="link_nav">
+                <li><a href="./index.html">trang chủ</a></li>
+                <li><a href="./tintuc.html">tin tức</a></li>
+                <li><a href="./media.html">media</a></li>
+                <li><a href="./camnang.html">cẩm nang</a></li>
+                <li><a href="https://giaidaupubgm.zing.vn/">esport</a></li>
+            </ol>
+            <img src="./index_pnj/coor_dinate.png" alt="" id="img_nav">
+        </nav>
+    </header>
+    <div id="news">
+        <ul id="nav">
+            <li>
+                <h2><a href="javascript:news('tintuc');">TIN TỨC</a></h2>
+            </li>
+            <li>
+                <h2><a href="javascript:news('huongdan');" >HƯỚNG DẪN</a></h2>
+            </li>
+            <li>
+                <h2><a href="javascript:news('esport');" >ESPORT</a></h2>
+            </li>
+            <li>
+                <h2><a href="javascript:news('congdong');"  style="border-right: none;">CỘNG ĐỒNG</a></h2>
+            </li>
+        </ul>
+        <div id = 'content_news' class='tintuc' name='active'>
+            <div id="new_news" >
+                <div id ='news_link'> <img src="./index_pnj/new/1135-kv3.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/1138-thumb.png" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/3516-kv.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/4531-kv.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+        </div>
+        <div id = 'content_news_nonactive' class='huongdan' name='nonactive'>
+            <div id="new_news" >
+                <div id ='news_link'> <img src="./index_pnj/new/1135-kv3.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/1138-thumb.png" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/3516-kv.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/4531-kv.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+        </div>
+        <div id = 'content_news_nonactive' class='esport' name='nonactive'>
+            <div id="new_news" >
+                <div id ='news_link'> <img src="./index_pnj/new/1135-kv3.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/1138-thumb.png" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/3516-kv.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/4531-kv.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+        </div>
+        <div id = 'content_news_nonactive' class='congdong' name='nonactive'>
+            <div id="new_news" >
+                <div id ='news_link'> <img src="./index_pnj/new/1135-kv3.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/1138-thumb.png" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/3516-kv.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+            <div id="new_news">
+                <div id ='news_link'><img src="./index_pnj/new/4531-kv.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+        </div>
+        <div id="pase">
+            
+        </div>
+    </div>
+    <footer>
+        <img src="./index_pnj/foot_car.png" alt="Xe-tang-pubg-mobile" id="car_img">
+        <div id="container">
+            <div id="footlogo"><img alt="VNG-logo" src="./index_pnj/footer_logo.png" id="img-fluid"></div>
+            <div id="footlogo">
+                © VNG 2016. Công Ty Cổ Phần VNG<br>
+                Địa chỉ: Lô Z06 đường số 13, khu chế xuất Tân Thuận, Tân Thuận Đông, quận 7, TP. Hồ Chí Minh.<br>
+                Giấy phép phê duyệt nội dung số: 41/QĐ-BTTTT ngày 9/1/2019 do Bộ Thông Tin và Truyền Thông cấp.<br>
+                Liên hệ hợp tác: pubgmcoop@vng.com.vn        <br><a style="color: #989898;" href="https://pubgm.zing.vn/thoa-thuan-nguoi-dung--39.html">Điều Khoản Sử Dụng</a>
+            </div>
+        </div>
+        
+      </footer>
+</body>
+</html>

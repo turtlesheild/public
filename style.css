@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /* header */
+#header a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+   
+}
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    max-height: 50vw;
+    position:relative;
+    /* overflow: auto; */
+}
+#header #video {
+    /* margin: 0; */
+    width: 100%;
+    /* height: 100%; */
+    /* position:relative; */
+    /* top: 0;
+    left: 0; */
+    z-index: -2;
+}
+/* #header #video source{
+    width: 100%;
+    height: 100%;
+} */
+#header #end_header_img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#header #nav{
+ 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#header #nav #logo_link{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* float: left; */
+    display: block;
+    width: 26vw;
+    height: 12vw;
+    align-items: center;
+    z-index: 2;
+    /* background-color: rgb(253, 208, 6); */
+}
+#header #nav #logo_link img{
+    float: left;
+    margin: 2vw;
+    margin-right: 1vw;
+    height: 8vw;
+    width: 8vw;
+    z-index: 2;
+}
+#header #nav #logo_link #slogan{
+    padding-top: 3vw;
+    margin:auto 10px;
+    align-items: center;
+    z-index: 2;
+    
+
+}
+#nav #link_nav{
+    display:grid;
+    grid-template-columns: repeat(5, 6.5vw);
+   
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 98vw;
+    height: 8vw;
+    background-color: rgba(0, 0, 0, 0.73);
+    padding-left: 30vw;
+    z-index: 1;
+    
+
+}
+#nav #link_nav li {
+    max-width: 120px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+#nav a:hover, #nav a:focus, #nav a:active{
+    color: rgb(253, 208, 6);
+}
+#nav #img_nav{
+    
+    position: absolute;
+    top: 8vw;
+    left: 0;
+    width: 98vw;
+    border-top-color:red;
+    border-width: 11vh;
+}
+#header p img{
+    width: 40%;
+    position: absolute;
+    bottom: 18vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#header #download{
+    width: 70vw;
+    position: absolute;
+    bottom: 10vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display:grid;
+    grid-template-columns: repeat(4, 15vw);
+    justify-content: center
+}
+#download #down{
+    width: 70%;
+    padding: 1vw;
+}
+#download #down img{
+    width: 15vw;
+}
+#header #scroll{
+    
+    color: rgb(253, 208, 6);
+    position: absolute;
+    bottom: 3vw;
+    left: 50%;
+    text-align: center;
+    align-items: center;
+    transform: translateX(-50%);
+}
+#header #scroll img{
+    width: 1.5vw;
+}
+#header #end_header{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* live show */
+#live_show{
+    background-image: url(./index_pnj/shop_bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vw;
+    position: relative;
+}
+#live_show img{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#news{
+    padding: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#news #nav{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    font-size: 1.5r;
+}
+#news #nav a{
+    color: #000;
+    text-decoration: none;
+    padding: 1vw;
+    border-right: 1px solid #db7093;
+}
+#news #nav a:hover{
+    color: orange;
+    text-decoration:underline orange;
+}
+#content_news{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#content_news_nonactive{
+    display: none;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#new_news{
+    width: 48%;
+    height: 10vw;
+    padding: 10px;
+}
+#new_news #news_link{
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+#new_news #news_link :hover{
+    background-color: orange;
+}
+
+#new_news p{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+#new_news img{
+    padding: 1vw;
+    margin-left: auto;
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+#news #news_button{
+    margin-top: 2vw;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    box-shadow: 0px 0px 0px 2px rgb(217 133 0 / 30%);
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #d98500;
+}
+#news #news_button:hover{
+    
+    background-color: orange;
+    color: white;
+}
+
+
+footer{
+    background: url(./index_pnj/foot_bg.jpg) no-repeat top center #131313;
+    background-size: 100% auto;
+    position: relative;
+    margin-top: -1px;
+    padding: 1rem 0;
+    color: #989898;
+    font-size: 0.8rem;
+}
+footer #container {
+    width: 100%;
+    padding-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.2rem;
+}
+
+footer #footlogo{
+    padding: 5px;
+    padding-left: 15%;
+    z-index: -1;
+    /* margin: 2rem; */
+}
+/* footer #row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+
+footer #car_img {
+    display: block;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    max-width: 400px;
+}
